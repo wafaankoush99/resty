@@ -1,0 +1,30 @@
+.formc{
+    margin: 0px 20%;
+}
+form {
+    width: 50%;
+    margin: 0 auto;
+
+    .fdiv, .sdiv{
+        padding: 10px;
+    }
+    button {
+        border: none;
+        background-color: #cdcdcd;
+        margin: 2%;
+        cursor: pointer;
+    }
+
+
+
+}
+
+section div{
+    // width: 50%;
+    margin: 0 auto;
+    height: max-content;
+    height: 20em;
+    border: 1px solid black;
+    background-color: #DDD;
+    margin: 1% 0;
+}
