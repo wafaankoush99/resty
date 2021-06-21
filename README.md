@@ -21,9 +21,9 @@ The following user/developer stories detail the major functionality for this pha
 
 - Import and render **Header**, **Footer**, and **Form** components from other files
 
-- The**<Header>** component use it’s own .scss file for styling
-- The**<Footer>** component use it’s own .scss file for styling
-- The**<Form>** component :
+- The ``<Header>`` component use it’s own .scss file for styling
+- The ``<Footer>`` component use it’s own .scss file for styling
+- The ``<Form>`` component :
         - Use it’s own .scss file for styling
         - Accept user input for a URL and store it in state
         - Allow the user to choose a method and store it in state
