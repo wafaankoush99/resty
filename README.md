@@ -30,17 +30,11 @@ The following user/developer stories detail the major functionality for this pha
 
 - Displayed the user’s choices on screen in a separate <section> under the form
   
-```
-visually appealing site with a Header, Footer, and a large content area
-form that asks for a URL
-buttons that let the user choose from the REST methods (get, post, put, delete)
-When the form is filled out, and the button is clicked, display the URL and the method chosen
-```
 
 
 ## Deployed App Link :
   
-  [Click Here](https://resty-app-wafa.herokuapp.com/)
+  ## [ => RESTy App <= ](https://resty-app-wafa.herokuapp.com/)
 
 
 ***
@@ -50,4 +44,8 @@ When the form is filled out, and the button is clicked, display the URL and the 
 [Board](https://lucid.app/lucidchart/8537cb90-1ae6-4a6b-a6a9-35643a0787ff/edit?viewport_loc=-613%2C-96%2C3241%2C1515%2C0_0&invitationId=inv_4668999e-00a7-4735-af96-67bdd9b550a0)
 
 ![Screenshot 2021-06-21 030227](https://user-images.githubusercontent.com/78326110/122692373-3e993c80-d23d-11eb-8f02-af24bc6ce83a.png)
+
+                                                              
+[PR](https://github.com/wafaankoush99/resty/pull/1)
+                                                              
 
