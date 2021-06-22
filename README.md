@@ -15,7 +15,9 @@ The following user/developer stories detail the major functionality for this pha
 - As a user, I want to enter the URL to a REST API and select the REST method to use to access it
 - As a user, I want visual confirmation that my entries and selections are valid so that I have confidence the application will be able to fetch the API data that I’ve requested
 
-## CAPS system :
+
+
+## Notes :
 
 - Begin with creating your application using **create-react-app**
 
@@ -30,8 +32,35 @@ The following user/developer stories detail the major functionality for this pha
 
 - Displayed the user’s choices on screen in a separate <section> under the form
   
+        
+        
+### UML Diagram
+
+[Board](https://lucid.app/lucidchart/8537cb90-1ae6-4a6b-a6a9-35643a0787ff/edit?viewport_loc=-613%2C-96%2C3241%2C1515%2C0_0&invitationId=inv_4668999e-00a7-4735-af96-67bdd9b550a0)
+
+![Screenshot 2021-06-21 030227](https://user-images.githubusercontent.com/78326110/122692373-3e993c80-d23d-11eb-8f02-af24bc6ce83a.png)
+        
+***
+        
+### Phase 1 
+connecting RESTy to live APIs, fetching and displaying remote data. Our primary focus will be to service GET requests
 
 
+The following user/developer stories detail the major functionality for this phase of the project.
+
+- As a user, I want to enter the URL to an API and issue a GET request so that I can retrieve it’s data
+- As a user, I want to see the results returned from an API request in my browser in a readable format
+
+        
+### UML Diagram
+
+[Board](https://miro.com/welcomeonboard/azlJUE1NSkE3aGFaNFVFMGJRVTlNbnRaNUsweUNpTDNlaU1MdVlVZzg0eFAzbFJaSGw1TVJIMW5MZnVMbzhMbXwzMDc0NDU3MzU3MzU4Mjc2Mjk1)
+
+![Untitled (23)](https://user-images.githubusercontent.com/78326110/123014251-784d7d00-d3ce-11eb-988f-d2c83ac809b7.jpg)
+
+
+        
+***
 ## Deployed App Link :
   
   ## [ => RESTy App <= ](https://resty-app-wafa.herokuapp.com/)
@@ -39,13 +68,11 @@ The following user/developer stories detail the major functionality for this pha
 
 ***
 
-### UML Diagram
 
-[Board](https://lucid.app/lucidchart/8537cb90-1ae6-4a6b-a6a9-35643a0787ff/edit?viewport_loc=-613%2C-96%2C3241%2C1515%2C0_0&invitationId=inv_4668999e-00a7-4735-af96-67bdd9b550a0)
-
-![Screenshot 2021-06-21 030227](https://user-images.githubusercontent.com/78326110/122692373-3e993c80-d23d-11eb-8f02-af24bc6ce83a.png)
 
                                                               
-[PR](https://github.com/wafaankoush99/resty/pull/1)
+[PR-1](https://github.com/wafaankoush99/resty/pull/1)
+                                                              
+[PR-2](https://github.com/wafaankoush99/resty/pull/2)
                                                               
 
