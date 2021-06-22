@@ -21,18 +21,23 @@ class App extends React.Component {
     super(props);
     this.state = {
       results: [],
-      count: 0
+      count: 0,
+      header:''
     }
+    this.handleForm = this.handleForm.bind(this)
   }
-  handleForm = (results, count) => {
-    this.setState({ results, count })
+  handleForm = (results, count, header) => {
+    this.setState({ results, count, header })
   }
   render() {
     return (
       <React.Fragment>
         <Header />
         <Form handler={this.handleForm} />
-        <Result results={this.state.results} />
+        <Result
+        count={this.state.count}
+        results={this.state.results}
+        header={this.state.header} />
         <Footer />
       </React.Fragment>
     )

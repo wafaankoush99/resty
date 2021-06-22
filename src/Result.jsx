@@ -6,11 +6,15 @@ import './Result.scss';
 class Result extends React.Component {
 
     render() {
-        console.log("child : ", this.props.results)
+        // console.log("child : ", this.props.results)
         return (
             <>
                 <section>
-                <JSONPretty id="json-pretty" data={this.props.results}></JSONPretty>
+                    {/* console.log(this.props); */}
+                    Count : {this.props.count}
+                    <br />
+                    Header: {this.props.header}
+                     <JSONPretty id="json-pretty" data={this.props.results}></JSONPretty>
                 </section>
 
             </>
