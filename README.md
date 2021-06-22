@@ -42,7 +42,7 @@ The following user/developer stories detail the major functionality for this pha
         
 ***
         
-### Phase 1 
+### Phase 2 
 connecting RESTy to live APIs, fetching and displaying remote data. Our primary focus will be to service GET requests
 
 
@@ -51,6 +51,28 @@ The following user/developer stories detail the major functionality for this pha
 - As a user, I want to enter the URL to an API and issue a GET request so that I can retrieve it’s data
 - As a user, I want to see the results returned from an API request in my browser in a readable format
 
+## Notes :
+
+Suggested Component Hierarchy and Application Architecture:
+
+- **index.js** - Entry Point
+- **app.js** - Container
+        * Holds state: Count and Results Array
+        * A class method that can update state
+        * Renders 2 Child Components
+        
+- **`<Form />`**
+   - Expects a function to be sent to it as a prop
+   - Renders a URL entry form
+   - A selection of REST methods to choose from (“get” should be the default)
+   - On submit
+         - Send the API results back to the `<App>` using the method sent down in props
+`<Results />`
+   - Expects the count, headers, results to be sent in as props
+   - Renders the count
+   - Renders the Result Headers as “pretty” JSON
+   - Renders the Result Body as “pretty” JSON
+        
         
 ### UML Diagram
 
