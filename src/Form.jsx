@@ -5,7 +5,7 @@ class Form extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            userMethod: '',
+            userMethod: 'GET',
             userURL: '',
             results: []
         }
