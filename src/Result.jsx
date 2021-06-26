@@ -9,7 +9,8 @@ class Result extends React.Component {
         // console.log("child : ", this.props.results)
         return (
             <>
-                <section>
+                <section id="results">
+                    Serch Result :
                     {/* console.log(this.props); */}
                     Count : {this.props.count}
                     <br />
@@ -23,3 +24,4 @@ class Result extends React.Component {
 }
 
 export default Result;
+
