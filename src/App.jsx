@@ -4,17 +4,9 @@ import Form from './Form';
 import Result from './Result';
 import Footer from './Footer';
 import History from './History';
-
-// function App() {
-//   return (
-//     <React.Fragment>
-//       <Header />
-//       <Form />
-//       <Footer />
-//     </React.Fragment>
-//   );
-// }
-
+import Help from './Help';
+import { Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router } from "react-router-dom";
 
 
 class App extends React.Component {
@@ -68,24 +60,57 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Header />
-        <History
-          historyHandler={this.handleHistory}
-          after={this.afterSubmit}
-          arr={this.state.array}
-          flag={this.state.flag} />
-        <Form handler={this.handleForm}
-          method={this.state.method}
-          url={this.state.url}
-          body={this.state.body}
-          flag={this.state.flag}
-        />
-        <Result
-          count={this.state.count}
-          header={this.state.header}
-          results={this.state.results}
-        />
-        <Footer />
+
+        <Router>
+          <Header />
+          <Switch>
+            <main>
+              <Route exact path="/history">
+
+                <History historyHandler={this.historyHandler}
+                  after={this.afterSubmit}
+                  arr={this.state.array}
+                  flag={this.state.flag}
+                />
+
+              </Route >
+
+              <Route exact path="/">
+
+                <History
+                  historyHandler={this.historyHandler}
+                  after={this.afterSubmit}
+                  arr={this.state.array}
+                  flag={this.state.flag}
+                />
+
+                <Form handler={this.handleForm}
+                  method={this.state.method}
+                  url={this.state.url}
+                  body={this.state.body}
+                  flag={this.state.flag}
+                />
+
+                <Result
+                  results={this.state.results}
+                  count={this.state.count}
+                  header={this.state.header}
+                />
+
+              </Route>
+
+              <Route exact path="/help" >
+
+                <Help />
+              </Route>
+            </main>
+          </Switch>
+          <Footer />
+
+
+        </Router>
+
+
       </React.Fragment>
     )
 
