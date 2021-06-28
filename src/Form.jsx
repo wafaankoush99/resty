@@ -92,7 +92,7 @@ class Form extends React.Component {
                 let str = `${this.state.method},${this.state.section},${submittedBody}`
                 let prevResult = JSON.parse(localStorage.getItem('request'))
                 if (prevResult) {
-                    Object.values(prevResult).map((it) => {
+                    Object.values(prevResult).forEach((it) => {
                         if (!array.includes(it)) {
                             array.push(it)
                         }

@@ -15,7 +15,7 @@ class History extends React.Component {
         let prevResult = JSON.parse(localStorage.getItem('request'))
 
         if (prevResult) {
-            Object.values(prevResult).map((it) => {
+            Object.values(prevResult).forEach((it) => {
                 if (!arr.includes(it)) {
                     arr.push(it)
                 }

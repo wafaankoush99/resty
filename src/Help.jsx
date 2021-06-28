@@ -10,6 +10,13 @@ class Help extends React.Component {
                     Contact us:
                     wafaadirawe@gmail.com
                 </h2>
+
+                <h3>How To Use RESTy App ?</h3>
+                <ul>
+                    <li>Go to the home page and put an API link in the input url feild</li>
+                    <li>Choose a method ( GET, POST, PUT, DLELETE )</li>
+                    <li>You can get data from previosly submited APIS from History section or History page</li>
+                </ul>
             </React.Fragment>
 
         )
