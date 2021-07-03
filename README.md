@@ -83,6 +83,87 @@ Suggested Component Hierarchy and Application Architecture:
 
         
 ***
+        
+### Phase 3 
+In this phase of the RESTy build, some more fidelity added to the application, including a menu, history, and an “in-progress” spinner.
+
+
+The following user stories detail the major functionality for this phase of the project.
+
+- As a user, I want to be able to use all REST methods so that I can do more than just get data
+- As a user, I want a simple list of all previous queries I’ve run so that I can easily see which queries I’ve run before
+- As a user, I want to click on an old query and have my selections appear in the form for me, so I don’t have to re-type them
+* As a user, I want to see a “loading” indicator while RESTy is fetching data so that I know it’s working on my request
+        
+        
+## Notes :
+
+Suggested Component Hierarchy and Application Architecture:
+
+- **<Results />** 
+        
+       - Add support for all REST methods
+       - Use a conditional component such as <If> to hide/show the results pane when there are none
+       - Use a conditional component such as <If> to hide/show a loading image during the fetch process
+- **<History/>** 
+       - Show a simple history list on the main page
+       - Allow a user to click and re-run any previous query
+        
+        
+### UML Diagram
+
+[Board](https://miro.com/welcomeonboard/UGhvUUxmMkFFZmdiNDJWS1BRcXhZcGhJVmZsVXFwVkxLZ0F5NDFrdzBFaG51SWdUZjAzQnp2bTFJMjdpY05NenwzMDc0NDU3MzU3MzU4Mjc2Mjk1)
+
+![Untitled (29)](https://user-images.githubusercontent.com/78326110/124357999-e728a280-dc26-11eb-9ebf-6ae01213181f.jpg)
+
+
+        
+***
+        
+                
+### Phase 4
+In this final phase of the RESTy build, more fidelity added to the application, including a menu with a ore detailed view of our history, as well as an about us page
+
+The following user stories detail the major functionality for this phase of the project.
+
+- As a user, I want to see all of my previous queries as a separate page so that I can browse them in greater detail
+- As a user, I would like to view a separate “Help” page so I can learn how the application works
+        
+        
+## Notes :
+
+Suggested Component Hierarchy and Application Architecture:
+
+- **<App />** 
+        
+        use routes to display the correct components, based on the route
+
+- **<History/>** 
+    - Show a list of URLs you’ve loaded before
+    - Show full details of each search
+    - Add a button to each to re-run the search
+    - Redirect to the home page to show the results
+        
+        
+- **<Help/>** 
+    - Display static content to the users on how to use the application
+
+
+        
+### UML Diagram
+
+[Board](https://miro.com/welcomeonboard/UGhvUUxmMkFFZmdiNDJWS1BRcXhZcGhJVmZsVXFwVkxLZ0F5NDFrdzBFaG51SWdUZjAzQnp2bTFJMjdpY05NenwzMDc0NDU3MzU3MzU4Mjc2Mjk1)
+
+![lab28+29](https://user-images.githubusercontent.com/78326110/124358190-daf11500-dc27-11eb-9183-9dd4f37bf449.jpg)
+
+
+
+        
+***
+        
+        
+        
+        
 ## Deployed App Link :
   
   ## [ => RESTy App <= ](https://resty-app-wafa.herokuapp.com/)
@@ -93,8 +174,7 @@ Suggested Component Hierarchy and Application Architecture:
 
 
                                                               
-[PR-1](https://github.com/wafaankoush99/resty/pull/1)
+[Pull Requests](https://github.com/wafaankoush99/resty/pulls?q=is%3Apr+is%3Aclosed)
                                                               
-[PR-2](https://github.com/wafaankoush99/resty/pull/2)
                                                               
 
