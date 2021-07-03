@@ -3,7 +3,7 @@ import './Footer.scss';
 
 const Footer = () => {
     return(
-      <p>
+      <p className="footer">
         &copy; All Rights Reserved 2021
       </p>
     )
