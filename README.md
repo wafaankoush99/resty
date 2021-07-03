@@ -167,6 +167,7 @@ Suggested Component Hierarchy and Application Architecture:
 ## Deployed App Link :
   
   ## [ => RESTy App <= ](https://resty-app-wafa.herokuapp.com/)
+  ## [ => Netlify <= ](https://60e0801926405e82179a2a77--eloquent-bartik-bdf730.netlify.app/)
 
 
 ***
