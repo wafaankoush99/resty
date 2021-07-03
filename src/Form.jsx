@@ -152,7 +152,8 @@ class Form extends React.Component {
                     <button id="delete" onClick={this.handleClick} value="DELETE">DELETE</button>
                     <textarea rows="4" cols="50" id="textarea" name="body" placeholder="please enter a json body"></textarea>
 
-                    <input type="submit" id="submit" value="GO" />
+<br></br>
+                    <input type="submit" id="submit" className="gobtn" value="GO" />
                 </form>
 
                 <h3>

@@ -105,6 +105,7 @@ class App extends React.Component {
               </Route>
             </main>
           </Switch>
+          {/* <h1>Welcome to RESTy API</h1> */}
           <Footer />
 
 
